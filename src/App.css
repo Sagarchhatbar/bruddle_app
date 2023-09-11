@@ -1,0 +1,15 @@
+.App {
+  background-color: #FAF4F0;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.upperPart{
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}

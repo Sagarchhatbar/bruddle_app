@@ -1,0 +1,40 @@
+.labels text{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 27%;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.form{
+    margin-top: 48px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 63%;
+    margin-top: 71px;
+}
+
+.rememberRecover{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20%;
+}
