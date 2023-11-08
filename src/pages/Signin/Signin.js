@@ -61,7 +61,7 @@ function Signin() {
             </Link>
           </text>
         </div>
-        {/* <DarkModeToggle /> */}
+        <DarkModeToggle />
       </div>
     </div>
   );

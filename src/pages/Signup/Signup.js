@@ -59,7 +59,7 @@ function Signup() {
             </Link>
           </text>
         </div>
-        {/* <DarkModeToggle /> */}
+        <DarkModeToggle />
       </div>
     </div>
   );
