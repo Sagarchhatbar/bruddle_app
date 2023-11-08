@@ -5,7 +5,6 @@ import "./QRLogin.css";
 import Link from "antd/es/typography/Link";
 import DarkModeToggle from "../../components/ToggleDarkMode/ToggleDarkMode";
 import { ThemeContext } from "../../context/ThemeContext";
-import CommonForm from "../../components/Form/Form";
 import QRImage from "../../assets/images/QRImage.png"
 import { Divider } from "antd";
 import DevicesIcon from "../../assets/Icons/DevicesIcon";
@@ -29,7 +28,7 @@ const QRLogin = () => {
             </span>
           </div>
           <div className="image">
-            <img src={QRImage}/>
+            <img src={QRImage} alt=""/>
             <br />
           </div>
           <Divider orientation="center">or</Divider>
