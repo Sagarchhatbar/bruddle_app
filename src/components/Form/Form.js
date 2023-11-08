@@ -14,6 +14,7 @@ function CommonForm({ forgetPassword }) {
       <h4 style={{ color: commonStyle }}>Email</h4>
       <Input
         placeholder="Enter your Email"
+        type="email"
         style={{ borderColor: commonStyle }}
         suffix={<MailIcon />}
       />
@@ -22,6 +23,7 @@ function CommonForm({ forgetPassword }) {
           <h4 style={{ color: commonStyle }}>Password</h4>
           <Input
             placeholder="Enter your Password"
+            type="password"
             style={{ borderColor: commonStyle }}
             suffix={<PasswordVisibility />}
           />

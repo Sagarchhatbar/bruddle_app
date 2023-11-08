@@ -13,6 +13,8 @@ import {
 } from "react-router-dom";
 import Signup from "./pages/Signup/Signup";
 import { ThemeContext } from "./context/ThemeContext";
+import ForgetPassword from "./pages/ForgetPassword/ForgetPassword";
+import QRLogin from "./pages/QRLogin/QRLogin";
 
 function App() {
   const { isDarkMode } = useContext(ThemeContext);
@@ -44,6 +46,9 @@ function App() {
               <Route path="/" element={<Navigate to="/signin" replace />} />
               <Route path="/signin" element={<Signin />} />
               <Route path="/signup" element={<Signup />} />
+              <Route path="/forgetPassword" element={<ForgetPassword />} />
+              <Route path="/QRlogin" element={<QRLogin />} />
+
             </Routes>
           </Router>
         </div>

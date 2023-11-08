@@ -12,7 +12,7 @@ import CommonCheckbox from "../../components/Checkbox/CommonCheckbox";
 
 function Signin() {
   const { isDarkMode } = useContext(ThemeContext);
-  const colorStyle = isDarkMode ? { color: "#FFFFFF" } : { color: "black" };
+  const colorStyle = isDarkMode ? { color: "#FFFFFF", fontWeight:'bold' } : { color: "black" , fontWeight:'bold' };
 
   return (
     <div>
@@ -36,6 +36,7 @@ function Signin() {
             <CommonCheckbox value={'Remember Me'}/>
             <Link
               style={colorStyle}
+              href="/forgetPassword"
             >
               Recover password
             </Link>
@@ -49,6 +50,7 @@ function Signin() {
             type={"default"}
             value={"Log in with QR code"}
             icon={<QrcodeOutlined />}
+            to={'/QRlogin'}
           />
 
           <text style={colorStyle}>
